@@ -25,6 +25,13 @@ h1{
     letter-spacing: 5px;  
 }
 
+.animate_bounceInDown{
+    animation-name: titulo-rebota;
+    animation-duration: 2s;
+    animation-delay: 0s;  
+}
+
+
 
 /* El nav padre le da flexibilidad de los hijos anclas */
 .caja-padre{
@@ -127,6 +134,7 @@ nav a{
         /*tamaño de cada columna y fila con otras medidas para telefono */
         grid-template-columns: repeat(2, 49%); 
         grid-template-rows: repeat(6, 315px);
+        
         gap: 1px 1px; 
         grid-template-areas: 
         "oscar bienvenidos"
